@@ -11,7 +11,7 @@ dotenv.config();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://mern-frontend-shakti7.vercel.app",
+    origin: "https://mern-frontend-qiyjvsf6q-shakti7.vercel.app/",
   }),
 );
 app.use("/api/todos", todoRoutes);
